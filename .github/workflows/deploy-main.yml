@@ -57,4 +57,4 @@ jobs:
 
           package: "${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output"
 
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_b0803f122bed494d996aea43f61bcfb3 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile }}
